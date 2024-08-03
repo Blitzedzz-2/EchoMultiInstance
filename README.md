@@ -5,7 +5,7 @@ This tool is for making roblox to run more instances at once without any of them
 ![Showcase.gif](https://raw.githubusercontent.com/Blitzedzz-2/EchoMultiInstance/main/showcase.gif)
 
 # How to build
-Step 1: Download the github
+Step 1: Clone the github with the command below
 ```git clone https://github.com/Blitzedzz-2/EchoMultiInstance.git```
 
 Step 2: Open the EchoMultiInstance.sln
