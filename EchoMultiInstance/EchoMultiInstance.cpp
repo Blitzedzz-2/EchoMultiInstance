@@ -117,7 +117,7 @@ int main() {
     std::wcout << L"\nLoading\n";
     killRobloxProcesses();
 
-    Sleep(3000); // Delay for 3 seconds
+    Sleep(3000);
     HANDLE roblox_mutex = CreateMutexW(0, TRUE, L"ROBLOX_singletonMutex");
 
     if (roblox_mutex == 0) {
@@ -128,7 +128,6 @@ int main() {
         error(L"GetLastError", L"Already exists");
     }
     else {
-
         system("cls");
         system("curl https://raw.githubusercontent.com/Blitzedzz-2/EchoMultiInstance/main/storage/ascii");
 
@@ -139,7 +138,6 @@ int main() {
         std::wstring targetPath = getShortcutTarget(shortcutPath);
         std::wstring version = extractVersionFromPath(targetPath);
 
-        // Display version
         if (!version.empty()) {
             std::wcout << L"Version: " << version << L"\n";
         }
@@ -147,7 +145,6 @@ int main() {
             std::wcout << L"Version: Not found (May have bugs)\n";
         }
 
-        // Restart Roblox
         restartRobloxProcess();
 
         while (true) {
