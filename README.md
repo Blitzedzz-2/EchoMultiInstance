@@ -2,8 +2,8 @@
 This tool is for making roblox to run more instances at once without any of them closing!
 
 # Showcase
-![Showcase.mp4](https://raw.githubusercontent.com/Blitzedzz-2/EchoMultiInstance/main/Showcase.mp4)
-
+<video src='https://raw.githubusercontent.com/Blitzedzz-2/EchoMultiInstance/main/Showcase.mp4' width=180/>
+  
 # How to build
 Step 1: Clone the github with the command below
 
