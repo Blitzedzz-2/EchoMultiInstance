@@ -1,11 +1,11 @@
-# Heyo 👋 welcome to the Echo Multi Instance (EMI) github!
-This tool is for making roblox to run more instances at once without any of them closing!
+# Heyo 👋 welcome to the Echo Multi-Instance (EMI) Github!
+This completely open-source tool makes roblox run more instances at once without any of them closing!
 
 # Showcase
 https://github.com/user-attachments/assets/57e1fc36-eb7b-4e7b-87e8-0de3394b6926
 
 # How to build
-Step 1: Clone the github with the command below
+Step 1: Clone the GitHub with the command below
 
 ```git clone https://github.com/Blitzedzz-2/EchoMultiInstance.git```
 
